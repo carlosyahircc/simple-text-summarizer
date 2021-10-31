@@ -1,0 +1,29 @@
+{
+    "name": "sumari",
+    "version": "1.0.0",
+    "description": "simple text summarizer",
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+        "node": ">= 6.0.0",
+        "npm": ">= 3.0.0",
+        "yarn": "^0.13.0"
+    },
+    "keywords": [
+        "summarizer",
+        "text",
+        "resumidor",
+        "resumen",
+        "automatico",
+        "automatic",
+        "simple",
+        "node",
+        "nodejs"
+    ],
+    "author": "tapioka <tapioka外国人#8707> (https://discord.gg/EeuwQMnkkj)",
+    "homepage": "https://github.com/Tapioka0/easy-summarise-text",
+    "repository": "gitlab:Tapioka0/easy-summarise-tex",
+    "license": "MIT"
+}
