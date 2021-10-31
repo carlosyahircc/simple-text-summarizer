@@ -11,16 +11,16 @@ It works in Spanish and English, soon it will support more languages, please be 
 
 
 ```bash
-npm install simple-sumarize-text
+npm install simple-text-summarizer
 ```
 
 ## Usage
 
 ```js
-const { ejecutarSumari } = require('simple-sumarize-text')
+const { runSummarize } = require('simple-sumarize-text')
 
             //Your text
-let texto = `
+let text = `
 Konrad Zuse propuso la idea de los primeros idiomas de alto nivel.
 Desarrolló el Plankalkül entre 1943 y 1945, pero por alguna razón, no fue implementado.
 Fue en 1949 cuando se creó el primer lenguaje de programación de alto nivel para computadoras electrónicas.
@@ -39,7 +39,8 @@ Desarrollaron un lenguaje conocido como Algol.
 Java y muchos otros lenguajes de alto nivel están basados de alguna manera en Algol.
 `
 
-ejecutarSumari(texto).then(x => console.log(x))
+let summarize = runSummarize(text)
+console.log(summarize)
 
 
 /*  Output
