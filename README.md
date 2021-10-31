@@ -17,7 +17,7 @@ npm install simple-text-summarizer
 ## Usage
 
 ```js
-const { runSummarize } = require('simple-sumarize-text')
+const { runSummarize } = require('simple-text-summarizer')
 
             //Your text
 let text = `
