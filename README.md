@@ -2,6 +2,8 @@
 
 Summarize text quickly to make tasks easier.
 
+View https://gitlab.com/Tapioka0/api-sumari
+
 ## Installation
 
 Use the package manager [npm](https://nodejs.org/en/) to install Simple Summarize Text.
